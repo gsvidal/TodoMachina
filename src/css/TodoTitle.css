@@ -1,0 +1,17 @@
+.TodoTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.TodoTitle__icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('../icons/check-square.svg') center/cover no-repeat;
+  filter: invert(77%) sepia(73%) saturate(1205%) hue-rotate(108deg) brightness(104%) contrast(103%);
+}

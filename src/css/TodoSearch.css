@@ -1,0 +1,29 @@
+.TodoSearch {
+  width: 270px;
+  height: 34px;
+  padding-left: 10px;
+  margin-left: 20px;
+  border: 1px solid #6a26c2;
+  border-radius: 3px;
+}
+
+.TodoSearch:focus {
+  background-color: rgba(47, 10, 95, 0.3);
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+.TodoSearch:focus::placeholder {
+  color: rgba(256,256,256, .4);
+}
+
+.search-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('../icons/search.svg') center/cover no-repeat;
+  position: relative;
+  top: 4px;
+  left: -25px;
+}
