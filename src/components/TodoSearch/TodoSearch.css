@@ -22,7 +22,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background: url('../icons/search.svg') center/cover no-repeat;
+  background: url('../../icons/search.svg') center/cover no-repeat;
   position: relative;
   top: 4px;
   left: -25px;
